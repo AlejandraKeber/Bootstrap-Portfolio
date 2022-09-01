@@ -11,72 +11,71 @@
 </head>
 
 <body>
-
-    <nav id="navbar-portfolio" class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">DuncanAlejandra</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading3">Contact</a>
-                    </li>
-            </div>
-        </div>
-    </nav>
-    <div data-bs-spy="scroll" data-bs-target="#navbar-portfolio" data-bs-offset="0" class="scrollspy-example"
-        tabindex="0">
-    </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="greetings"></div>
-                <h5 id="greetingstext">I'm DuncanAlejandra,Glad to see you</h5>
-                <p class="Greeting-details">I’m a software developer!
+        <nav id="navbar-portfolio" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">DuncanAlejandra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading3">Contact</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-portfolio" data-bs-offset="0" class="scrollspy-example"
+            tabindex="0">
+        </div>
+        <div class="container-fluid">
+
+            <div class="has-bg-img">
+                <!-- <img class="bg-img" src="./Images/Header-big.png" alt="..."> -->
+                <h1 class="text-center">We're Duncan/Alejandra <br>Glad to see you!</h1>
+                <p class="text-center">I’m a software developer!
                     I can help you design and build a product ,
                     feature or website Look through some of my work and experience!
                     If you like what you see and have a project you need coded,
                     don’t hestiate to contact me.</p>
             </div>
+
         </div>
 
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
                     <img src="./Images/Works/Snapshoot-Portfolio-Desktop.png" class="card-img-top" alt="Project1">
-
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                <div class="card p-5">
                     <div class="card-body">
-                        <h5 id="scrollspyHeading1" class="card-title">Tonic</h5>
+                        <h2 id="scrollspyHeading1" class="card-title">Tonic</h2>
                     </div>
                     <div class="headline-detail">
-                        <p class="canopy">CANOPY</p>
-                        <img src="./Images/Works/Counter.png" alt="">
-                        <p class="backenddev">Back End Dev</p>
-                        <img src="./Images/Works/Counter.png" alt="">
-                        <p class="backenddev">2015</p>
+                        <p class="canopy">CANOPY 
+                            <img src="./Images/Works/Counter.png" alt=""> Back End Dev <img src="./Images/Works/Counter.png" alt=""> 2015 </p>
+                        
                     </div>
                     <p class="headlinecont-work">A daily selection of privately personalized reads; no accounts or
                         sign-ups required.</p>
-                    <ul class="smallbuttons">
-                        <li><button class="button-small">html</button></li>
-                        <li><button class="button-small">css</button></li>
-                        <li><button class="button-small">JavaScript</button></li>
-                    </ul>
-                    <div class="d-grid gap-2 d-md-block">
+                    <div>
+                        <span class="badge rounded-pill bg-primary">html</span>
+                        <span class="badge rounded-pill bg-primary">css</span>
+                        <span class="badge rounded-pill bg-primary">JavaScript</span>
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-block pt-5">
                         <button class="btn btn-primary" type="button">See Project</button>
                     </div>
                 </div>
@@ -88,6 +87,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
